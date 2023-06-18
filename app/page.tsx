@@ -7,7 +7,7 @@ export default function IndexPage() {
   return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
       <section className="mt-[10%] text-center font-mono text-[3.2rem] antialiased ">
-        <span className="italic">
+        <span className="font-mono">
           <div>Hello everyone,</div>
           <div>I`m Shreyas P</div>
         </span>
