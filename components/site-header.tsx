@@ -13,7 +13,6 @@ export function SiteHeader() {
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center gap-4 space-x-1 font-mono text-2xl">
             <Link href="../projects">Projects</Link>
-            <Link href="../contact">Contact</Link>
             <Link href={siteConfig.links.resume} target="_blank">
               Resume
             </Link>
