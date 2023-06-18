@@ -1,7 +1,4 @@
-/* eslint-disable tailwindcss/no-contradicting-classname */
-import Image from "next/image"
 import Link from "next/link"
-
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 import { Icons } from "@/components/icons"
@@ -14,12 +11,12 @@ export default function IndexPage() {
           <div>Hello everyone,</div>
           <div>I`m Shreyas P</div>
         </span>
-        <div className="mx-[30%] mt-5 text-left font-mono text-[2.2rem] text-xl leading-7 ">
+        <div className="mx-[30%] mt-8 text-left font-mono text-2xl leading-7 ">
           Passionate Frontend Developer, building captivating web experiences
           with React and pushing boundaries.
         </div>
 
-        <div className="mt-6 flex w-full gap-3">
+        <div className="mt-8 flex w-full justify-center gap-3 ">
           <Link href={siteConfig.links.github} target="_blank" rel="noreferrer">
             <div
               className={buttonVariants({
@@ -58,7 +55,7 @@ export default function IndexPage() {
                 variant: "ghost",
               })}
             >
-              <Icons.twitter className="h-5 w-5 fill-current" />
+              <Icons.linkedin />
               <span className="sr-only">LinkedIn</span>
             </div>
           </Link>
