@@ -13,11 +13,20 @@ import {
 type Github = {
   title: string
   description: string
-  language: string
+  language: "TypeScript" | "JavaScript"
   star: number
+  TypeScript?: "fill-sky-400 text-sky-400"
+  JavaScript?: "fill-yellow-200 text-yellow-200"
 }
 
-export function GitHubProjects({ title, description, language, star }: Github) {
+export function GitHubProjects({
+  title,
+  description,
+  language,
+  star,
+  TypeScript,
+  JavaScript,
+}: Github) {
   return (
     <Card className="w-2/5">
       <CardHeader className="grid grid-cols-[1fr_110px] items-start gap-4 space-y-0 ">
@@ -28,16 +37,18 @@ export function GitHubProjects({ title, description, language, star }: Github) {
           <CardDescription>{description}</CardDescription>
         </div>
         <div className="ml-4">
-          <Button variant="ghost" className="bg-secondary">
-            <Star className="mr-2 h-4 w-4" />
-            Star
-          </Button>
+          <Link href={`https://www.github.com/${title}`} target="_blank">
+            <Button variant="ghost" className="bg-secondary">
+              <Star className="mr-2 h-4 w-4" />
+              Star
+            </Button>
+          </Link>
         </div>
       </CardHeader>
       <CardContent>
         <div className="flex space-x-4 text-sm text-muted-foreground">
           <div className="flex items-center">
-            <Circle className="mr-1 h-3 w-3 fill-sky-400 text-sky-400" />
+            <Circle className={`mr-1 h-3 w-3 ${JavaScript} ${TypeScript}`} />
             {language}
           </div>
           <div className="flex items-center">

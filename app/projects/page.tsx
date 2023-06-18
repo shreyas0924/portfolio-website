@@ -13,24 +13,28 @@ export default function page() {
           star={2}
           language="TypeScript"
           title="shreyas0924/twitter-emoji"
+          TypeScript="fill-sky-400 text-sky-400"
         />
         <GitHubProjects
-          description="Emoji-only twitter built using Next.js"
+          description="Airport Management System built using React"
           star={2}
-          language="TypeScript"
-          title="shreyas0924/twitter-emoji"
+          language="JavaScript"
+          title="shreyas0924/airport-management"
+          JavaScript="fill-yellow-200 text-yellow-200"
         />
         <GitHubProjects
-          description="Emoji-only twitter built using Next.js"
+          description="Business Marketplace for small businesses"
           star={2}
-          language="TypeScript"
-          title="shreyas0924/twitter-emoji"
+          language="JavaScript"
+          title="shreyas0924/business-marketplace"
+          JavaScript="fill-yellow-200 text-yellow-200"
         />
         <GitHubProjects
-          description="Emoji-only twitter built using Next.js"
+          description="Blockchain Ticketing System built on the Polygon Network"
           star={2}
-          language="TypeScript"
-          title="shreyas0924/twitter-emoji"
+          language="JavaScript"
+          title="shreyas0924/Biticket"
+          JavaScript="fill-yellow-200 text-yellow-200"
         />
       </div>
     </div>
