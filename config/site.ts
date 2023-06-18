@@ -11,8 +11,10 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
+    twitter: "https://twitter.com/Shreyas0924",
+    github: "https://github.com/shreyas0924",
     docs: "https://ui.shadcn.com",
+    linkedin: "https://www.linkedin.com/in/shreyas-p-854252201/",
+    resume: "https://drive.google.com/file/d/14ODgzzb8CRTBlxHLz1l1R0lz9MbwHXsr/view?usp=sharing"
   },
 }
