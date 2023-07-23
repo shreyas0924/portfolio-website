@@ -1,4 +1,5 @@
 import Link from "next/link"
+
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 import { Icons } from "@/components/icons"
@@ -6,12 +7,12 @@ import { Icons } from "@/components/icons"
 export default function IndexPage() {
   return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
-      <section className="mt-[10%] text-center font-mono text-[3.2rem] antialiased ">
+      <section className="mt-[10%] text-center font-mono text-4xl antialiased md:text-5xl ">
         <span className="font-mono">
           <div>Hello everyone,</div>
           <div>I`m Shreyas P</div>
         </span>
-        <div className="mx-[30%] mt-8 text-left font-mono text-2xl leading-7 ">
+        <div className="mt-8 text-left font-mono text-2xl leading-7 md:mx-[30%] md:text-2xl   ">
           Passionate Frontend Developer, building captivating web experiences
           with React and pushing boundaries.
         </div>
