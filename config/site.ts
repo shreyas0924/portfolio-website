@@ -15,6 +15,6 @@ export const siteConfig = {
     docs: "https://ui.shadcn.com",
     linkedin: "https://www.linkedin.com/in/shreyas-p-854252201/",
     resume:
-      "https://drive.google.com/file/d/14ODgzzb8CRTBlxHLz1l1R0lz9MbwHXsr/view?usp=sharing",
+      "https://drive.google.com/file/d/11WBKQsa_M0z4IKyRsXaLHp2pqWHnmHte/view?usp=sharing",
   },
 }
