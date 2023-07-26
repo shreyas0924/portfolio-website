@@ -7,8 +7,8 @@ export default function page() {
   return (
     <div>
       <h1 className="text-center my-10 text-2xl font-mono ">Projects</h1>
-      <div className="flex  flex-wrap mx-6 justify-center gap-2 my-2">
-      <GitHubProjects
+      <div className="flex  flex-wrap  mx-6 justify-center gap-2 my-2">
+        <GitHubProjects
           description="An ecommerce application built using Next.js 13"
           star={1}
           language="TypeScript"
@@ -36,14 +36,7 @@ export default function page() {
           title="shreyas0924/business-marketplace"
           JavaScript="fill-yellow-200 text-yellow-200"
         />
-        {/* <GitHubProjects
-          description="Blockchain Ticketing System built on the Polygon Network"
-          star={2}
-          language="JavaScript"
-          title="shreyas0924/Biticket"
-          JavaScript="fill-yellow-200 text-yellow-200"
-        /> */}
-        
+      
       </div>
     </div>
   )

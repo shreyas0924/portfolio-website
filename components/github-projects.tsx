@@ -28,15 +28,15 @@ export function GitHubProjects({
   JavaScript,
 }: Github) {
   return (
-    <Card className="w-2/5">
-      <CardHeader className="grid grid-cols-[1fr_110px] items-start gap-4 space-y-0 ">
+    <Card className="lg:w-2/5">
+      <CardHeader className="grid items-start gap-4 space-y-0 md:grid-cols-[1fr_120px] ">
         <div className="space-y-2">
           <Link href={`https://www.github.com/${title}`} target="_blank">
             <CardTitle>{title}</CardTitle>
           </Link>
           <CardDescription>{description}</CardDescription>
         </div>
-        <div className="ml-4">
+        <div className="lg:ml-4">
           <Link href={`https://www.github.com/${title}`} target="_blank">
             <Button variant="ghost" className="bg-secondary">
               <Star className="mr-2 h-4 w-4" />
