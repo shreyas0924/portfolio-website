@@ -12,7 +12,7 @@ export default function IndexPage() {
           <div>Hello everyone,</div>
           <div>I`m Shreyas P</div>
         </span>
-        <div className="mt-8 text-left font-mono text-2xl leading-7 md:mx-[30%] md:text-2xl   ">
+        <div className="mt-8 text-left font-mono text-2xl leading-7 md:mx-[32%] md:text-2xl   ">
           Passionate Full-Stack Developer, building captivating web experiences
           with React and pushing boundaries.
         </div>
